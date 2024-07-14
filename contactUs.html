@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>La Dolce Vita-צור קשר</title>
+    <meta name="description" content="טופס יצירת קשר עם מפתחי האתר אומנות הפסטה" />
+    <meta name="keywords" content="פיתוח אתרים, צור קשר, לה דולצ'ה ויטה, קורס" />
+    <meta name="author" content="Web development course" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="icon" href="images/favicon.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+</head>
+<body>
+    <div id="container">
+        <header id="header1">
+            <nav aria-label="mainNav" id="mainNav">
+                <ul>
+                    <li>
+                        <a href="index.html"><img src="images/favicon1.png" alt="לוגו" />La Dolce Vita</a>
+                    </li>
+                    <li>
+                        <a href="#" class="off">אלפרדו</a>
+                        <ul>
+                            <li class="off"><a href="#" class="off">מתכון</a></li>
+                            <li class="off"><a href="#" class="off">טבעוני</a></li>
+                            <li class="off"><a href="#" class="off">דל קלוריות</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="off">אלי אוליו</a>
+                        <ul>
+                            <li class="off"><a href="aglioeoliorecipe.html">מתכון</a></li>
+                            <li class="off"><a href="#" class="off">טבעוני</a></li>
+                            <li class="off"><a href="#" class="off">דל קלוריות</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="off">נפוליטנה</a>
+                        <ul>
+                            <li class="off"><a href="napolitanarecipe.html">מתכון</a></li>
+                            <li class="off"><a href="#" class="off">טבעוני</a></li>
+                            <li class="off"><a href="#" class="off">דל קלוריות</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="off">פוטנסקה</a>
+                        <ul>
+                            <li class="off"><a href="#" class="off">מתכון</a></li>
+                            <li class="off"><a href="#" class="off">טבעוני</a></li>
+                            <li class="off"><a href="#" class="off">דל קלוריות</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="off">יינות</a>
+                        <ul>
+                            <li class="off"><a href="#">אדום</a></li>
+                            <li class="off"><a href="wines.html">לבן</a></li>
+                            <li class="off"><a href="#">רוזה</a></li>
+                            <li class="off"><a href="#">מבעבע</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div class="contact">
+                <h2>צור קשר</h2>
+                <h3>La Dolce Vita - הפסטה מגיעה אליכם הביתה</h3>
+                <nav class="breadcrumbs">
+                    <ol>
+                        <li><a href="index.html">עמוד הבית</a><</li>
+                        <li>צור קשר</li>
+                    </ol>
+                </nav>
+                <p>
+                    תודה שביקרתם באתר שלנו, המוקדש כולו להכנת פסטה! <br />
+                    אנו מקווים שמצאתם את המידע, המתכונים והטיפים מועילים ומהנים. <br />
+                    אם יש לכם שאלות, הערות, או שאתם מעוניינים לשתף אותנו בחוויות ובהצעות שלכם, נשמח לשמוע מכם! <br />
+                    אנו כאן כדי לעזור ולהבטיח שתמשיכו ליהנות מהכנת הפסטה המושלמת.
+                </p>
+                <article>
+                    <form>
+                        <label for="FullName">
+                            שם מלא: <br />
+                            <input type="text" id="FullName" placeholder="הקלד שם פרטי ושם משפחה" required /> <br />
+                        </label>
+                        <fieldset>
+                            <legend>מגדר</legend>
+                            <input type="radio" id="female" name="gender" /> נקבה <br />
+                            <input type="radio" id="male" name="gender" /> זכר <br />
+                            <input type="radio" id="Other" name="gender" /> אחר <br />
+                        </fieldset>
+                        <label for="email">
+                            אימייל: <br />
+                            <input type="email" id="email" placeholder="הקלד כתובת מייל" required /> <br />
+                        </label>
+                        <label for="messageCONTENT">
+                            תוכן ההודעה: <br />
+                            <textarea id="messageCONTENT" placeholder="פרט לנו כאן" rows="5"></textarea>
+                        </label>
+                        <br />
+                        <label for="send">
+                            <input type="submit" id="sendForm" value="שליחה" />
+                        </label>
+                        <div id="feedback"></div>
+                    </form>
+                </article>
+            </div>
+        </section>
+        <footer id="footer">
+            <nav aria-label="footerNav" id="footernav1" class="footernav">
+                <ul>
+                    <li><a href="about.html">אודות</a></li>
+                    <li><a href="siteMap.html">מפת האתר</a></li>
+                    <li><a href="contactUs.html">צור קשר</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>

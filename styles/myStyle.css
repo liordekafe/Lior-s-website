@@ -1,0 +1,531 @@
+﻿@font-face {
+    font-family: 'amatica';
+    src: url(.../fonts/amatica_SC/AmaticaSC-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'ellinia';
+    src: url(...\fonts\ellinia\elliniaclm-light-webfont.ttf);
+}
+
+body {
+    direction: rtl;
+    width: 1280px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+#container {
+    width: 1280px;
+    margin: 0 auto;
+    height: auto;
+}
+
+#header1 {
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+    
+    #mainNav {
+    position: relative;
+    background-color: #233181;
+    width: 1280px;
+    height: 70px;
+    z-index: 1000;
+}
+
+        #mainNav ul {
+            list-style: none;
+            display: inline-block;
+            position: relative;
+            top: 20px;
+            margin: auto;
+            width: 800px;
+        }
+
+        #mainNav ul li {
+            display: inline-block;
+            text-align: center;
+            width: 100px;
+            height: 45px;
+            font-family: 'amatica', cursive;
+            font-weight: 400;
+        }
+
+
+            #mainNav ul li ul {
+                display: none;
+                position: absolute;
+                padding-right: 0px;
+                top: 40px;
+                margin-top: 10px;
+                width: 100px;
+                background-color: #233181;
+                border: 2px solid #3463DB;
+                border-top: 0px;
+                border-radius: 0px 0px 15px 15px;
+            }
+
+nav ul li ul li {
+    display: block;
+    padding: 0px;
+    text-align: center;
+    font-family: 'amatica', cursive;
+}
+
+#mainNav ul li:hover ul {
+    display: block;
+    filter: drop-shadow(2px 2px 2px #627FBE );
+}
+
+#mainNav ul li ul li:hover {
+    background-color: #627FBE;
+    border: 2px solid #3463DB;
+    border-top: 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#mainNav ul li a {
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    justify-content:center;
+}
+
+.mainNav ul li ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+#La Dolce Vita {
+    position: relative;
+    top: 100px;
+    font-family: 'amatica', cursive;
+    font-weight: 700;
+    font-size: 5em;
+    text-align: center;
+}
+
+#header1 {
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#header2 {
+    text-align: center;
+    padding: 20px;
+    width: 1280px;
+    position: relative;
+    top: 60px;
+}
+
+    #header2 h1 {
+        font-size: 60px;
+        margin: 10px 0;
+        font-family: 'amatica', cursive;
+        font-weight: 400;
+    }
+
+    #header2 h2 {
+        font-size: 36px;
+        margin: 10px 0;
+        font-family: 'ellinia', cursive;
+        font-weight: 300;
+    }
+
+#knowTheSite {
+    font-family: 'ellinia', cursive;
+    font-size: 1.6em;
+    display: block;
+    margin-top: 20px;
+    background-color: #FFD42D;
+    padding: 20px;
+    border-radius: 30px;
+    color: black;
+    filter: drop-shadow(3px 3px 3px #FFD42D );
+}
+
+#header2 h1 {
+    font-family: 'amatica', cursive;
+    font-size: 4em;
+}
+
+#header2 h2 {
+    font-family: 'amatica', cursive;
+    font-size: 3em;
+}
+
+
+#main1 {
+    width: 1280px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+
+    #main1 h2 {
+        font-family: 'amatica', cursive;
+        font-size: 3em;
+
+    }
+
+#sauces {
+    text-align: center;
+    position: relative;
+    width: 1280px
+}
+
+
+.flavors {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.3em;
+    margin-top: 40px;
+    margin:15px;
+    height: 250px;
+    width: 270px;
+    margin-left: 15px;
+}
+    .flavors span {
+        display: inline-block;
+        text-align: center;
+        color: #233181;
+        font-size: 1.3em;
+        font-weight: 200;
+        font-family: 'amatica', cursive;
+    }
+
+    .flavors img {
+        max-width: 100%;
+        margin-top: 30px;
+        width: 280px;
+        height: auto;
+        max-height: 30em;
+        filter: drop-shadow(3px 3px 3px #bdafa5);
+    }
+
+    .flavors ul {
+        padding: 0;
+        display: none;
+        background-color: #233181;
+        border-radius: 0px 0px 15px 15px;
+        width: 270px;
+    }
+
+        .flavors ul li {
+            display: block;
+            padding: 5px;
+            text-align: center;
+            
+        }
+
+        .flavors ul li a {
+                text-decoration: none;
+                color: white;
+                font-family: 'amatica', cursive;
+                text-align:center;
+            }
+            .flavors ul li:hover {
+                display:block;
+                background-color: #627FBE;
+                border: 2px solid #3463DB;
+                border-top: 0px;
+                border-radius: 0px 0px 10px 10px ;
+            }
+
+    .flavors:hover ul {
+        display: block;
+        filter: drop-shadow(2px 2px 2px #bdafa5);
+    }
+#wines {
+    position: relative;
+    top: 200px;
+    margin: 0 auto;
+    text-align: center;
+    width: 1280px;
+}
+    #wines div {
+        display:inline-block;
+        margin:30px; 
+    }
+
+.flavors1 {
+    display: inline-block;
+    position:relative;
+    background-color: #FFD42D;
+    border-radius: 30px;
+    filter: drop-shadow(2px 2px 2px #FFD42D );
+    text-align: center;
+    font-size: 1.3em;
+    width: 120px;
+    height: 30px;
+}
+    .flavors1 a {
+        color: black;
+        text-decoration: none;
+        font-family: 'amatica', cursive;
+        font-size: 1.2em;
+    }
+
+    .flavors1:hover {
+        display: inline-block;
+        height: 40px;
+        background-color: #ffffe0;
+        border-radius: 30px;
+        width: 120px;
+        filter: drop-shadow(2px 2px 2px #bdafa5 );
+    }
+.breadcrumbs {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: right;
+}
+
+    .breadcrumbs li {
+        display: inline-block;
+        font-family: 'amatica', cursive;
+        font-weight: bolder;
+        font-size: 1.3em;
+    }
+
+        .breadcrumbs li a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .breadcrumbs li:hover a {
+            text-decoration: underline;
+        }
+
+.firstTitle {
+    margin-bottom: 10px;
+    margin-top: 40px;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: right;
+}
+
+main .recipe {
+    margin-top: 20px;
+}
+
+    main.recipe img {
+        max-width: 100%;
+        margin-top: 30px;
+        width: 280px;
+        height: auto;
+        max-height: 30em;
+        filter: drop-shadow(3px 3px 3px #bdafa5);
+    }
+
+h2 {
+    font-size: 2.5em;
+    margin: 10px 0;
+    font-family: 'amatica', cursive;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul .ingridient {
+    padding-left: 20px;
+}
+
+    ul.ingridient li {
+        margin-bottom: 5px;
+        font-size: 1.5em;
+        font-family: 'ellinia', cursive;
+        font-weight: 200;
+    }
+
+aside h3 {
+    top: 20px;
+}
+
+aside ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+    aside ul li {
+        margin: 10px;
+        font-family: 'ellinia', cursive;
+        font-weight: 200;
+        font-size: 1.5em;
+        list-style: disc;
+    }
+
+        aside ul li strong {
+            font-family: 'ellinia', cursive;
+            font-weight: bolder;
+            text-decoration: underline;
+            font-size: 1.1em;
+        }
+
+p {
+    font-family: 'ellinia', cursive;
+    font-weight: 200;
+    font-size: 1.5em;
+}
+
+div.moreFlavors ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+    div.moreFlavors ul li {
+        list-style: none;
+    }
+
+div.moreFlavors img {
+    height: 250px;
+    width: 200px;
+    display: inline-block;
+    margin-top: 30px;
+    width: 280px;
+    height: auto;
+    max-height: 30em;
+    filter: drop-shadow(3px 3px 3px #bdafa5);
+}
+
+.sauce {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.developed ul li {
+    list-style: none;
+}
+
+    .developed ul li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .developed ul li:hover a {
+        text-decoration: underline;
+    }
+
+figure a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    figure a img {
+        max-width: 100%;
+        height: auto;
+    }
+
+.contact p {
+    background-color: #FFD42D;
+    margin-left: 400px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+form {
+    font-family: 'amatica', cursive;
+    font-size: 1.3em;
+    font-weight: bolder;
+    background-color: #EAEAEA;
+    margin-left: 400px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+fieldset {
+    border: none;
+}
+
+#mapNav {
+    display: inline-block;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+    #mapNav .off {
+        color: gray;
+    }
+    #mapNav li{
+        text-align:center;
+    }
+
+    #mapNav ul li ul li:first-child {
+        padding-top: 40px;
+       }
+
+    #mapNav ul li {
+        margin-bottom: 20px;
+        width: 100px;
+    }
+
+    #mapNav ul:first-child > li {
+        float: right;
+        margin-right: 20px;
+        position: relative;
+        top: 100px;
+        right: 100px;
+    }
+   .hoverLinks:hover{
+       text-decoration:underline;
+
+    }
+
+#mapNav ul li a {
+    text-decoration: none;
+    display: block;
+    font-family: 'amatica', cursive;
+    font-size: 1.3em;
+    font-weight: 300;
+    margin-bottom:10px;
+}
+        #footer {
+    background-color: #233181;
+    width: 1280px;
+    height: 60px;
+    z-index: 1500;
+    position: relative;
+    text-align: center;
+    margin-top: 600px;
+}
+
+
+    #footer nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 20px;
+        width: 340px;
+        height: 20px;
+        display:inline-block;
+        justify-content:center;
+    }
+
+        #footer nav ul li {
+            display: inline-block;
+            text-align: center;
+            width: 100px;
+        }
+
+            #footer nav ul li a {
+                text-decoration:underline;
+                color: white;
+                font-size: 1.4em;
+                font-family: 'amatica', cursive;
+            }
+
+.off, .wineoff {
+    cursor: not-allowed;
+}
+
